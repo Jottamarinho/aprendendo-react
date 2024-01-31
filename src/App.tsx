@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import thumb from "./img/OIP.jpg"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+  return(
+<section>
+    <div className='hub'>
+      <div className='main-header'>
+      <a href= "https://www.youtube.com/watch?v=rCFmLjGq3Jg&list=RDrCFmLjGq3Jg&start_radio=1">
+        <img src={thumb}/>  </a>
+        <div className="text">
+        <h3>O tamanho da burrice do Arnaldo 4k</h3>
+        <p>O gênio e ao mesmo tempo burro da UFAL</p>
+        </div>
+     
+      </div>
     </div>
+    
+</section>
   );
+
+
 }
 
 export default App;
